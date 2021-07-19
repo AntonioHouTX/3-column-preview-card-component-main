@@ -11,27 +11,31 @@ body {
 .main {
   display: flex;
   justify-content: center;
-  margin: 8rem 8rem 8rem 8rem;
+  max-width: 75em;
+  height: 36rem;
+  margin: 7rem;
   padding: 0rem 5rem;
 }
 
-#icon {
-  padding: 1rem 15rem 1rem 0;
+.icon {
+  width: 5rem;
 }
 
-#title {
+.title {
   font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
-  font-size: 200%;
+  font-size: 2.5rem;
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
-#description {
-  padding: 0 3rem 4rem 0;
-  font-size: 75%;
-  line-height: 200%;
+.description {
+  padding: 0 0rem 4rem 0;
+  /* margin: 0 6rem 1rem 0; */
+  font-size: 1rem;
+  line-height: 1.6rem;
+  padding-bottom: 4rem;
 }
 
 .sedans,
@@ -40,37 +44,48 @@ body {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
-  padding: 2em 0em 2em 2em;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
 }
 
 .sedans {
-  border-radius: 2% 0 0 2%;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
   background-color: hsl(31, 77%, 52%);
-  display: flex;
-  flex-direction: column;
 }
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
-  display: flex;
-  flex-direction: column;
 }
 
 .luxury {
-  border-radius: 0 2% 2% 0;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
   background-color: hsl(179, 100%, 13%);
-  display: flex;
-  flex-direction: column;
 }
 
-#learnmore {
+.sedansButton,
+.suvsButton,
+.luxuryButton {
   background-color: hsl(0, 0%, 95%);
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
-  color: rgba(0,0,0, 0.7);
-  margin: 1em 10em 1em 0em;
-  padding: 1em 0em;
-  border-radius: 20px;
+  width: 8rem;
+  height: 3.5rem;
+  margin-top: 3rem;
+  border-radius: 5rem;
+  border: none;
+}
+
+.sedansButton {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvsButton {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxuryButton {
+  color: hsl(179, 100%, 13%);
 }
 
 .attribution {
