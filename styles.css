@@ -9,31 +9,22 @@ body {
 }
 
 .main {
-  display: flex;
-  justify-content: center;
-  max-width: 75em;
-  height: 36rem;
-  margin: 7rem;
-  padding: 0rem 5rem;
+  display: flex
 }
 
-.icon {
-  width: 5rem;
-}
+
 
 .title {
   font-family: "Big Shoulders Display", cursive;
   font-weight: 700;
-  font-size: 2.5rem;
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
-  padding: 2rem 0;
 }
 
 .description {
-  font-size: 1rem;
-  line-height: 1.6rem;
-  padding-bottom: 3rem;
+  
+  
+
 }
 
 .sedans,
@@ -42,9 +33,10 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
-  padding: 4em;
   display: flex;
   flex-direction: column;
+  padding: 4em;
+
 }
 
 .sedans {
@@ -113,10 +105,95 @@ body {
 }
 
 @media screen and (min-width: 375px) {
+  .main {
+    flex-direction: column;
+    margin: 3rem 1rem 3rem 1rem;
+  }
+
+  .title {
+  padding: 1rem 0;
+  font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-right: 3rem;
+  }
+
+  .icon {
+    margin: 1rem 0rem 0.5rem 0rem;
+    width: 3rem;
+    height: 2rem;
+  }
+
+  .sedans,
+  .suvs,
+  .luxury {
+    height: 25rem;
+    padding: 1rem 0rem 1rem 3rem;
+  }
+
+  .sedans {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+
+  .luxury {
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+  }
+
+  #learnmore {
+    width: 8rem;
+    height: 3rem;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
 }
 
 @media screen and (min-width: 1025px) {
+  .main {
+    justify-content: center;
+    max-width: 75em;
+    height: 36rem;
+    margin: 7rem;
+    padding: 0rem 5rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+
+  .icon {
+    width: 5rem;
+  }
+
+  .sedans {
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+  }
+
+
+  .luxury {
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+  }  
+
+  .sedans,
+  .suvs,
+  .luxury {
+  }
+
+  .description {
+    padding-bottom: 3rem;
+  }
+
 }
