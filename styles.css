@@ -13,19 +13,11 @@ body {
   display: flex
 }
 
-
-
 .title {
   font-family: "Big Shoulders Display", cursive;
   font-weight: 700;
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
-}
-
-.description {
-  
-  
-
 }
 
 .sedans,
@@ -37,7 +29,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 4em;
-
 }
 
 .sedans {
@@ -152,6 +143,36 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .main {
+    flex-direction: column;
+    margin: 5rem 4rem;
+  }
+
+  .description {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-right: 12rem;
+  }
+
+  .icon {
+    margin: 2rem 0rem 0.5rem 0rem;
+    width: 5rem;
+    height: 3rem;
+  }
+
+  .sedans,
+  .suvs,
+  .luxury {
+    height: 35rem;
+    padding: 1rem 0rem 1rem 3rem;
+  }
+
+  #learnmore {
+    width: 8rem;
+    height: 3rem;
+    margin: 6rem 0rem 2rem 0rem;
+  }
+
 }
 
 @media screen and (min-width: 1025px) {
