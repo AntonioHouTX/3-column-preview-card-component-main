@@ -6,6 +6,7 @@
 
 body {
   background-color: hsl(0, 0%, 95%);
+  
 }
 
 .main {
@@ -154,9 +155,16 @@ body {
 }
 
 @media screen and (min-width: 1025px) {
-  .main {
+  body {
+    display: flex;
     justify-content: center;
-    max-width: 75em;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main {
+    flex-direction: row;
+    max-width: 75rem;
     height: 36rem;
     margin: 7rem;
     padding: 0rem 5rem;
@@ -176,6 +184,7 @@ body {
 
   .icon {
     width: 5rem;
+    height: 3rem;
   }
 
   .sedans {
@@ -190,10 +199,12 @@ body {
   .sedans,
   .suvs,
   .luxury {
+    height: 32rem;
   }
 
   .description {
     padding-bottom: 3rem;
+    margin-right: 5rem;
   }
 
 }
