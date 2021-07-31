@@ -44,7 +44,9 @@ body {
   background-color: hsl(179, 100%, 13%);
 }
 
-#learnmore {
+.sedansButton,
+.suvsButton,
+.luxuryButton {
   background-color: hsl(0, 0%, 95%);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
@@ -136,7 +138,9 @@ body {
     border-radius: 0rem 0rem 0.5rem 0.5rem;
   }
 
-  #learnmore {
+  .sedansButton,
+  .suvsButton,
+  .luxuryButton {
     width: 8rem;
     height: 3rem;
     margin: 2rem 0rem 2rem 0rem;
@@ -168,7 +172,9 @@ body {
     padding: 1rem 0rem 1rem 3rem;
   }
 
-  #learnmore {
+  .sedansButton,
+  .suvsButton,
+  .luxuryButton {
     width: 8rem;
     height: 3rem;
     margin: 6rem 0rem 2rem 0rem;
@@ -186,7 +192,6 @@ body {
   .main {
     flex-direction: row;
     max-width: 75rem;
-    height: 36rem;
     margin: 7rem;
     padding: 0rem 5rem;
   }
@@ -216,21 +221,11 @@ body {
     border-radius: 0rem 0.5rem 0.5rem 0rem;
   }
 
-  .sedans,
-  .suvs,
-  .luxury {
-    height: 32rem;
-  }
-
-  #learnmore {
-    background-color: hsl(0, 0%, 95%);
-    font-family: "Lexend Deca", sans-serif;
-    font-weight: 400;
+  .sedansButton,
+  .suvsButton,
+  .luxuryButton {
     width: 8rem;
     height: 3.5rem;
     margin-top: 2rem;
-    border-radius: 5rem;
-    border: none;
-    cursor: pointer;
   }
 }
