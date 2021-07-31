@@ -50,9 +50,6 @@ body {
   background-color: hsl(0, 0%, 95%);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  width: 8rem;
-  height: 3.5rem;
-  margin-top: 3rem;
   border-radius: 5rem;
   border: none;
   cursor: pointer;
