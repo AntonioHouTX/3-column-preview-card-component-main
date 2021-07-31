@@ -224,8 +224,8 @@ body {
   .sedansButton,
   .suvsButton,
   .luxuryButton {
-    width: 8rem;
-    height: 3.5rem;
+    width: 9rem;
+    height: 3rem;
     margin-top: 2rem;
   }
 }
